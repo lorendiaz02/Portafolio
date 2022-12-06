@@ -1,0 +1,246 @@
+:root {
+  --bg-body: rgb(0, 0, 0);
+  --fontSize-title: 40px;
+  --fontSize-parrafos: 20px;
+}
+
+nav.bg-portafolio {
+  background: var(--bg-body);
+}
+nav.bg-portafolio ul li a {
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 10px;
+  background-image: url("../img/fheader.jpg");
+  background-size: cover;
+}
+header .bg-portafolio {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+#hero article {
+  margin-left: 360px;
+  margin-top: 500px;
+  width: 45%;
+
+  text-align: center;
+}
+#hero article h2 {
+  padding-top: 10px;
+}
+
+#hero article h3 {
+  padding-bottom: 10px;
+  align-items: center;
+  color: antiquewhite;
+  font-size: large;
+}
+#hero .li-marco {
+  border: 5px;
+  color: rgb(252, 252, 252);
+}
+#estudios{
+  width: 100%;
+
+  background: rgb(233, 229, 229);
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+#estudios h3 {
+  margin-top: 60px;
+  margin-left: 400px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 25%;
+  text-align: center;
+  background-color: rgb(182, 139, 169);
+}
+
+#estudios .imgpersona {
+  border-radius: 50%;
+  border-style: inset;
+  width: 15%;
+  margin-left: 480px;
+  margin-top: -80px;
+}
+
+#estudios p {
+  margin-top: 100px;
+  margin-left: 40px;
+  width: 60%;
+  text-align: justify;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+#estudios .imgestudio {
+  margin-top: 100px;
+  margin-left: 120px;
+  width: 70%;
+}
+#trabajos {
+  padding-top: 30px;
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  background: rgb(243, 240, 240);
+  background-size: cover;
+}
+
+#trabajos h3 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 50px;
+}
+#trabajos .imgEsquina {
+  margin-top: 90px;
+  width: 90%;
+}
+
+#trabajos .imgCentro {
+  margin-top: 280px;
+  width: 90%;
+}
+
+#trabajos h5 {
+  padding-top: 10px;
+  text-align: center;
+}
+#sobremi{
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  background: #fff;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+ }
+ #sobremi h2{
+  padding-top: 50px;
+ }
+ #sobremi article .img1{
+  width: 65%;
+  margin-top: 80px; 
+  margin-right: 80px;
+}
+#sobremi article .p1{
+  width: 60%;
+  text-align: justify;  
+  padding-top: 120px;
+  margin-left: 50px;
+  
+}
+#sobremi article .p2{
+  width: 60%;
+  text-align: justify;  
+  margin-top: 80px;
+  margin-left: 170px;
+}
+
+#sobremi article .img2{
+  width: 65%;
+  margin-top: 110px;
+  margin-left: 80px;
+    
+}
+#portafolio{
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  min-height: 100vh;
+  background:  rgb(233, 229, 229);
+  background-size: cover;
+
+ }
+  #portafolio h2{
+   margin-top: 40px;
+   text-align: center;
+ 
+ }
+ 
+ #portafolio img{
+  border-radius: 20px;
+     margin-top: 30px;
+     width: 90%;
+ }
+ #portafolio .row{
+     margin-top: 60px;
+     margin-left: 85px;
+     width: 90%;
+ }
+
+ #habilidades{
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+ }
+ #habilidades h2{
+  padding-top: 90px;
+  text-align: center;
+ }
+ #habilidades .bg-top{
+  margin-top: 100px;
+}
+ #habilidades .row{
+  justify-content: center;
+margin-bottom: 60px;
+ }
+ #habilidades .row h2{
+  margin: 0px;
+  padding-top: 50px;
+  padding-left: 60px;
+  width: 150px;
+  text-align: center;
+  font-size: 30px;
+  
+ }
+ #habilidades img{
+  padding-top: 40px;
+  width: 40%;
+  
+ }
+ #habilidades .colh{
+  margin: 0px;
+  width: 25%;
+  height: 150px;
+  
+ }
+ #habilidades .colh2{
+  justify-items: center;
+  margin: 0px;
+  width: 25%;
+  height: 150px;
+  
+ }
+ .icono{
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 99;
+  opacity: 0.5;
+ }
+
+
+
+ footer{
+  width: 100%;
+position: relative;
+padding: 40px;
+color: #ffffff;
+text-align: center;
+background-color: rgb(161, 158, 160);
+}
+footer img{
+margin: 10px;
+}
